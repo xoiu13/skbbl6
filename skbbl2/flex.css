@@ -1,0 +1,23 @@
+.box{border: 2px solid black; padding: 30px;}
+.con{background: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 450px;
+    align-items: start;
+}
+
+.box1
+{
+    border: 2px solid red;
+    padding: 30px;
+}
+.child
+{
+    display: flex; height: 300px;
+}
+.a{flex-basis: 300px; align-self: start;order: 2;}
+.b{flex-grow: 1; align-self: end;order: 4;}
+.c{flex-grow: 2; align-self: center;order: 1;}
+.d{order: 3;}
